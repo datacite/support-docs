@@ -46,14 +46,11 @@ Each service supports metadata harvesting workflows and use cases in different w
 
 ### Related resources
 
-[How can I detect removed or retracted records with the REST API?](doc:how-do-i-detect-removed-records-or-retractions-with-the-rest-api) 
+- [How can I detect removed or retracted records with the REST API?](doc:how-do-i-detect-removed-records-or-retractions-with-the-rest-api) 
+- [How can I harvest metadata in XML format?](doc:how-can-i-harvest-xml-metadata-with-datacite-apis)
+- [How can I make my DOI list query more efficient when using the REST API?](doc:how-can-i-make-my-doi-list-query-more-efficient-when-using-the-rest-api)
+- [What can I do if I receive "read timeout reached" errors while paging through DataCite DOI metadata using the REST API?](doc:what-can-i-do-if-i-receive-read-timeout-reached-errors-while-paging-through-datacite-doi-metadata-using-the-rest-api)
 
-[How can I harvest metadata in XML format?](doc:how-can-i-harvest-xml-metadata-with-datacite-apis)
+Keep up to date with the latest information about harvesting metadata by joining the [Harvesters Interest Group](https://groups.google.com/a/datacite.org/g/harvesters-interest-group/about?pli=1).
 
-[How can I make my DOI list query more efficient when using the REST API?](doc:how-can-i-make-my-doi-list-query-more-efficient-when-using-the-rest-api)
-
-[What can I do if I receive "read timeout reached" errors while paging through DataCite DOI metadata using the REST API?](doc:what-can-i-do-if-i-receive-read-timeout-reached-errors-while-paging-through-datacite-doi-metadata-using-the-rest-api)
-
-Keep up to date with the latest information about harvesting metadata by joining the [Harvesters Interest Group](https://groups.google.com/a/datacite.org/g/harvesters-interest-group/about?pli=1)
-
-Please get in touch if you have any questions at [support@datacite.org](mailto:support@datacite.org)
+Please get in touch if you have any questions at [support@datacite.org](mailto:support@datacite.org).
