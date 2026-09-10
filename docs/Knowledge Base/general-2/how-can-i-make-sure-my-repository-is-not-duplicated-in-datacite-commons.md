@@ -2,7 +2,7 @@
 title: How can I make sure my repository is not duplicated in DataCite Commons?
 excerpt: ''
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
