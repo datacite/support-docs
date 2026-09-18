@@ -22,7 +22,7 @@ A DataCite Member/Consortium/Consortium Organization is an organization that has
 
 This document summarises some of the key best practices for DOI registration and management.
 
-## What can a DataCite DOI be assigned to?
+## What can a DataCite DOI be assigned to? 
 
 DataCite Members and Consortium Organizations must follow the [DOI Registration Policy](doc:doi-registration-policy).
 
