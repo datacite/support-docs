@@ -28,7 +28,7 @@ DataCite Members and Consortium Organizations must follow the [DOI Registration 
 
 This policy specifies that:
 
-1. An organization can only assign a DOI to content that their organization has responsibility for. DataCite expects all Members (and Consortium Organizations) to be active stewards of the content they are assigning DOIs to. This means they need to be able to update the content and metadata. It is not permissible to provide or resell DOIs to third parties.
+1. An organization can only assign a DOI to content that their organization has responsibility for. DataCite expects all Members (and Consortium Organizations) to be active stewards of the content they are assigning DOIs to. This means they need to be able to update the content and metadata. It is not permissible to provide or resell DOIs to third parties. 
 
 2. DOIs should not be assigned to an identical version of the content if the same content is already published somewhere else with a DOI. You can assign a new DOI to an author-deposited manuscript, but this must not be the final published version. Please check copyright before assigning a DOI.
 
