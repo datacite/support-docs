@@ -21,6 +21,10 @@ Almost any meaningful use of the DataCite REST API will involve some level of re
 
 A **singleton** is a single result, i.e., the metadata for a specific DOI. This section of the guide covers singletons. The next section, [Retrieving a list of DOIs](doc:api-get-lists), will cover lists. 
 
+> 📘 
+>
+> DataCite offers [a community-enriched DOI metadata layer](doc:metadata-enrichments) that enhances the quality and utility of DataCite metadata. Use [the `enriched=true` parameter](doi: metadata-enrichments#retrieve-a-single-enriched-doi-record) with singleton requests to retrieve the latest enriched metadata record for a DOI. 
+
 ## Request
 
 Retrieve a single DOI via a GET request by replacing `{id}` in `https://api.datacite.org/dois/{id}` with the DOI name.
