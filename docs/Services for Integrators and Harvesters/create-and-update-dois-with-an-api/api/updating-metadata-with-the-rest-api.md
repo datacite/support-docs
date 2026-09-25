@@ -18,7 +18,7 @@ To update an existing record, you will need to make a PUT request to `https://ap
 > 
 > PUT requests to the /dois endpoint will **update** a DOI record if it already exists and **create** a new record if the DOI name is not already taken.
 
-Your Repository account username and password are needed for authentication. The JSON payload can be specified in a file. Here is an example curl command using the test endpoint:
+Your Repository account username and password or [an API key corresponding to a Repository account](doc:api-keys) are needed for authentication. The JSON payload can be specified in a file. Here is an example curl command using the test endpoint:
 
 ```shell
 # PUT /dois/:id
@@ -28,7 +28,7 @@ curl -X PUT -H "Content-Type: application/vnd.api+json" --user YOUR_REPOSITORY_I
 
 You will need to replace:
 
-- `YOUR_REPOSITORY_ID:YOUR_PASSWORD` with your DataCite repository credentials
+- `YOUR_REPOSITORY_ID:YOUR_PASSWORD` with your DataCite repository credentials or API key
 - `doi_update.json` with the name of your JSON payload file
 - `:id` with the DOI you wish to update
   - For example, replace `https://api.test.datacite.org/dois/:id` with `https://api.test.datacite.org/dois/10.5438/0012`
