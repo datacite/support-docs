@@ -28,6 +28,10 @@ Below are the main DataCite services for harvesting DataCite DOI metadata:
 
 [REST API](doc:api-queries): The DataCite REST API is DataCite's primary API and enables retrieval, creation, and update of DataCite DOI metadata records and account information. The REST API requests can include various filters and parameters to allow for limiting the results based on specific criteria.
 
+> 📘 
+>
+> DataCite offers [an enriched DOI metadata layer](doc:metadata-enrichments) that enhances the quality and utility of DataCite metadata. Use [the `enriched=true` parameter](doc:metadata-enrichments#retrieve-a-list-of-doi-records-with-enrichments-applied) with REST API requests to retrieve an enriched version of the DataCite metadata store. 
+
 [OAI-PMH](doc:datacite-oai-pmh): This DataCite service exposes metadata stored in the DataCite Metadata  
 Store (MDS) using the Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH).
 
