@@ -12,7 +12,7 @@ next:
 ---
 To create DOIs with the REST API, you will need:
 
-- **Repository account credentials**. Only Repository accounts have the ability to create and update DOIs. For more information on account types and permissions, see [Accounts in DataCite](doc:datacite-account-types).
+- **Repository account credentials** or **a corresponding [API key](doc:api-keys)**. Only Repository accounts have the ability to create and update DOIs. For more information on account types and permissions, see [Accounts in DataCite](doc:datacite-account-types).
 - **Prefix**. The prefix associated with your Repository account must be included in the API request. The request will fail with an error message if the prefix used is not associated with your Repository ID.
 
 > 👍 Test and Production Environments
@@ -28,7 +28,7 @@ To create DOIs with the REST API, you will need:
 
 To add a new DOI, you will make a POST request to <https://api.test.datacite.org/dois> with a JSON payload. See the [API Reference](ref:post_dois) for more information.
 
-Your Repository account username and password are needed for authentication. The JSON payload can be specified in a file. Here is an example curl command using the test endpoint:
+Your Repository account username and password are needed for authentication. [API keys](api-keys#use-an-api-key) corresponding to a Repository account can also be used for authentication instead of a Repository credentials. The JSON payload can be specified in a file. Here is an example curl command using the test endpoint:
 
 ```shell
 curl -X POST -H "Content-Type: application/vnd.api+json" --user YOUR_REPOSITORY_ID:YOUR_PASSWORD -d @doi.json https://api.test.datacite.org/dois 
