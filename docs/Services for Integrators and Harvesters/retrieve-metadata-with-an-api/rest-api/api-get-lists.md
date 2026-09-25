@@ -29,7 +29,7 @@ A list response has four parts:
 
 > 📘 
 >
-> DataCite offers [a community-enriched DOI metadata layer](doc:metadata-enrichments) that enhances the quality and utility of DataCite metadata. Use [the `enriched=true` parameter](doc:metadata-enrichments#retrieve-a-list-of-doi-records-with-enrichments-applied) with list requests to retrieve an enriched version of the list. 
+> DataCite offers [an enriched DOI metadata layer](doc:metadata-enrichments) that enhances the quality and utility of DataCite metadata. Use [the `enriched=true` parameter](doc:metadata-enrichments#retrieve-a-list-of-doi-records-with-enrichments-applied) with list requests to retrieve an enriched version of the list. 
 
 ## Request
 
