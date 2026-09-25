@@ -126,11 +126,11 @@ This file contains a JSON dictionary with three keys, `month` (the "version" of 
 
 ## Access the Monthly Data File
 
-This service is currently available to all DataCite Members and Consortium Organizations, who can use their existing Member, Consortium Organization, or Repository credentials to authenticate and download the contents of the data file.
+This service is currently available to all DataCite Members and Consortium Organizations, who can use their existing Member, Consortium Organization, or Repository credentials to authenticate and download the contents of the data file. [API keys](doc:api-keys) can also be used for authentication.
 
 ### Access credentials
 
-To obtain a set of AWS credentials permitting access to the S3 bucket, you must make an authenticated HTTP GET request to the DataCite REST API using your existing Member, Consortium Organization, or Repository credentials.
+To obtain a set of AWS credentials permitting access to the S3 bucket, you must make an authenticated HTTP GET request to the DataCite REST API using your existing Member, Consortium Organization, or Repository credentials. [API keys](doc:api-keys) can also be used.
 
 Here is an example curl command to retrieve AWS credentials: 
 
