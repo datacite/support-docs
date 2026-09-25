@@ -72,7 +72,7 @@ Example of a Repository account ID:
 [/block]
 
 
-DataCite users wishing to register and update DOIs and metadata via the APIs must use their Repository account credentials. A Direct Member, Consortium, or Consortium Organization account cannot register DOIs or update DOI metadata.
+DataCite users wishing to register and update DOIs and metadata via the APIs must use their Repository account credentials or [an API key corresponding to a Repository account](doc:api-keys). Users may wish to use either with an integration, so we recommend supporting Repository account credentials at minimum or both Repository account credentials and API keys. A Direct Member, Consortium, or Consortium Organization account cannot register DOIs or update DOI metadata.
 
 A single organization (DataCite Member or Consortium Organization) can have multiple Repository accounts that can be used to create DOIs. Each Repository account has a separate set of credentials.
 
@@ -133,7 +133,7 @@ We recommend that all integrations follow our [Best Practices for DOI Registrati
 
 Integrations which are developed for a platform that is used by more than one organization may meet criteria for the DataCite [Service Provider Program](doc:datacite-service-providers). A Service Provider is an organization that has integrated with one of the DataCite APIs to enable other organizations to register DataCite DOIs.
 
-DataCite Service Providers do not offer DOIs, but do offer DataCite Members and Consortium Organizations the ability to register DOIs through their platform. Members and Consortium Organizations register DOIs using their own Repository account credentials. This means that integrations supported by Service Providers must provide users a secure means of entering their own Repository account credentials.
+DataCite Service Providers do not offer DOIs, but do offer DataCite Members and Consortium Organizations the ability to register DOIs through their platform. Members and Consortium Organizations register DOIs using their own Repository account credentials. This means that integrations supported by Service Providers must provide users a secure means of entering their own Repository account credentials or [API keys](doc:api-keys).
 
 If you are interested in joining the program or learning more, please contact us at [support@datacite.org](mailto:support@datacite.org).
 
