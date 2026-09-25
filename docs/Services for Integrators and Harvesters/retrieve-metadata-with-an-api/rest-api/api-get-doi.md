@@ -23,7 +23,7 @@ A **singleton** is a single result, i.e., the metadata for a specific DOI. This 
 
 > 📘 
 >
-> DataCite offers [a community-enriched DOI metadata layer](doc:metadata-enrichments) that enhances the quality and utility of DataCite metadata. Use [the `enriched=true` parameter](doi: metadata-enrichments#retrieve-a-single-enriched-doi-record) with singleton requests to retrieve the latest enriched metadata record for a DOI. 
+> DataCite offers [a community-enriched DOI metadata layer](doc:metadata-enrichments) that enhances the quality and utility of DataCite metadata. Use [the `enriched=true` parameter](doc:metadata-enrichments#retrieve-a-single-enriched-doi-record) with singleton requests to retrieve the latest enriched metadata record for a DOI. 
 
 ## Request
 
