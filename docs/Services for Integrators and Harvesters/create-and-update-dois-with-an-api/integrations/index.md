@@ -24,7 +24,7 @@ DataCite has two main APIs for DOI registration:
 
 ## Repository accounts
 
-To enable DOI registration, an integration must enable authentication using [Repository credentials](doc:datacite-account-types#repository-account). A Repository is a type of account in DataCite systems and is the only account that can be used to register DOIs. Repositories represent a store where all the DOIs for a group of resources are registered and will stay together. A Repository has its own set of credentials and one prefix for DOI registration.
+To enable DOI registration, an integration must enable authentication using [Repository credentials](doc:datacite-account-types#repository-account) or [an API key corresponding to a Repository account](doc:api-keys). A Repository is a type of account in DataCite systems and is the only account that can be used to register DOIs. Repositories represent a store where all the DOIs for a group of resources are registered and will stay together. A Repository has its own set of credentials and one prefix for DOI registration.
 
 The Repository account ID includes the ID of the associated Direct Member or Consortium Organization.
 
@@ -47,7 +47,7 @@ Example of a Repository account ID:
 [/block]
 
 
-DataCite users wishing to register and update DOIs and metadata via the APIs or Fabrica must use their Repository account credentials.
+DataCite users wishing to register and update DOIs and metadata via the APIs or Fabrica must use their Repository account credentials or [an API key corresponding to a Repository account](doc:api-keys).
 
 A single organization (DataCite Member or Consortium Organization) can have multiple Repository accounts that can be used to create DOIs. Each Repository account has a separate set of credentials. 
 
@@ -55,7 +55,7 @@ A single organization (DataCite Member or Consortium Organization) can have mult
 
 DataCite Registered Service Providers are organizations that provide software that integrates with a DataCite API to enable DOI registration for their users. Registered Service Providers maintain [integrations for repository platforms and CRIS systems](https://support.datacite.org/docs/service-provider-software-integrations).
 
-Any organization that wishes to create DOIs through a Registered Service Provider’s integration with a DataCite API will need to use their own Repository account credentials to do so. 
+Any organization that wishes to create DOIs through a Registered Service Provider’s integration with a DataCite API will need to use their own Repository account credentials to do so. [API keys](doc:api-keys) can also be used in place of Repository account credentials with integrations. 
 
 ## Other platform integrations
 
