@@ -66,7 +66,7 @@ Learn more about the differences between Test and Production in our [Testing Gui
 
 ## API Versions
 
-The current version of the REST API is version 2. If you are using the endpoints `/works`, `/members`, or `/data-centers`, you are using [version 1](doc:api-v1).
+The current version of the REST API is version 2. Endpoints like `/works`, `/members`, and `/data-centers` correspond to [version 1](doc:api-v1), which is [now deprecated](doc:datacite-rest-api-legacy-endpoints-deprecation).
 
 > 🚧 
 > 
