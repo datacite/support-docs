@@ -27,6 +27,10 @@ A list response has four parts:
 > - [Queries and filtering](doc:api-queries): Add a "query" parameter to filter by DOI metadata properties.
 > - [Retrieving a random sample of DOIs](doc:api-sampling): Get a random sample of DOIs for analysis.
 
+> 📘 
+>
+> DataCite offers [a community-enriched DOI metadata layer](doc:metadata-enrichments) that enhances the quality and utility of DataCite metadata. Use [the `enriched=true` parameter](doc:metadata-enrichments#retrieve-a-list-of-doi-records-with-enrichments-applied) with list requests to retrieve an enriched version of the list. 
+
 ## Request
 
 Retrieve a list of DOIs via a GET request to `https://api.datacite.org/dois` with optional parameters.
