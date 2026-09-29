@@ -18,13 +18,9 @@ The [DataCite Metadata Store (MDS) API](https://support.datacite.org/reference/m
 
 All requests to the MDS API require authentication. For this reason, only traffic via a secure connection (HTTPS) is supported. The DataCite Metadata Store (MDS) uses  [HTTP Basic authentication](https://en.wikipedia.org/wiki/Basic_access_authentication). 
 
-To start interacting with our DataCite Metadata Store (MDS) API you must have an account:
-
-- If you are a DataCite Direct Member, DataCite will provide you a username and password.
-- If you are a DataCite Consortium Organization, your Consortium Lead will provide you a username and password.
-- If you are not yet a DataCite member, you can request a test account. Please see the [Testing Guide](doc:testing-guide) for more information.
-
-Remember that you will be allowed to register DOI names only under the prefixes that have been assigned to you.
+> 📘 To create DOIs with the MDS API, you will need:
+> - Repository account credentials or a corresponding [API key](doc:api-keys). Only Repository accounts have the ability to create and update DOIs. For more information on account types and permissions, see [Accounts in DataCite](docs:datacite-account-types). 
+> - Prefix. The prefix associated with your Repository account must be included in the API request. The request will fail with an error message if the prefix used is not associated with your Repository ID. 
 
 ## How to Use
 
