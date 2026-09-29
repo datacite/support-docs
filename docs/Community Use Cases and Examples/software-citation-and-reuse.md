@@ -28,3 +28,20 @@ Connection metadata establishes links between software and other entities across
 | affiliationIdentifier | Organizational affiliations of the creators and contributors                                                | ROR IDs                                                  |
 | funderIdentifier      | Uniquely identifies the entity that funded the software development                                         | ROR IDs                                                  |
 | publisherIdentifier   | The entity that holds, archives, publishes, prints, distributes, releases, issues, or produces the resource | ROR IDs                                                  |
+
+\##RelatedIdentifiers<br /><br />The relatedIdentifier property connects the primary DOI to another identifier, e.g a Software DOI and the DOI of a publication that cites it. Apply the appropriate relationType to the Software DOI to manage versions, allocate citations, and more.
+
+Example: relatedIdentifier metadata for a Software DOI connecting with [IsCitedBy](https://datacite-metadata-schema.readthedocs.io/en/4.7/appendices/appendix-1/relationType/#iscitedby) and [Compiles](https://datacite-metadata-schema.readthedocs.io/en/4.7/appendices/appendix-1/relationType/#compiles) relationTypes:
+
+```text xml
+<relatedIdentifiers>
+  <relatedIdentifier relatedIdentifierType="DOI" relationType="IsCitedBy">10.1038/s41597-022-01710-x</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="DOI" relationType="Compiles">10.5281/zenodo.1234567</relatedIdentifier>
+</relatedIdentifiers>
+```
+
+<br />
+
+\###Further reading:<br />Blog Post: Levchenko, M., Fiedler, M., Knodel, O., & Pape, D. (2026). Recognizing Research Software: DataCite Journey of the Helmholtz-Zentrum Dresden-Rossendorf. DataCite. [https://doi.org/10.5438/5TCR-Q032](https://doi.org/10.5438/5TCR-Q032)
+Barker, M., Chue Hong, N.P., Katz, D.S. et al. Introducing the FAIR Principles for research software. Sci Data 9, 622 (2022). [https://doi.org/10.1038/s41597-022-01710-x](https://doi.org/10.1038/s41597-022-01710-x)
+Smith, A. M., Katz, D. S., & Niemeyer, K. E. (2016). Software citation principles. PeerJ Computer Science, 2, e86. [https://doi.org/10.7717/peerj-cs.86](https://doi.org/10.7717/peerj-cs.86)
