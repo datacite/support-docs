@@ -7,7 +7,7 @@ metadata:
 ---
 As a DataCite member, you can assign DataCite DOIs and metadata to research software shared by your organization. This is important to increase visibility and discoverability of research software, ensure it aligns with the [FAIR (Findable, Accessible, Interoperable, Reusable)](https://doi.org/10.1038/sdata.2016.18) principles, and can be cited in publications. The [DataCite Metadata Schema](https://schema.datacite.org/) defines [Software](https://datacite-metadata-schema.readthedocs.io/en/4.7/appendices/appendix-1/resourceTypeGeneral/#software) as:
 
-_a computer program other than a computational notebook, in either source code (text) or compiled form. Use this type for general software components supporting scholarly research._<br /><br />To register a DOI for software, you must use the resourceTypeGeneral: Software. Below is an example of the XML metadata for a Software DOI:&#x20;
+_a computer program other than a computational notebook, in either source code (text) or compiled form. Use this type for general software components supporting scholarly research._<br /><br />To register a DOI for software, you must use the resourceTypeGeneral: **Software**. Below is an example of the XML metadata for a Software DOI:&#x20;
 
 
 ```text xml
