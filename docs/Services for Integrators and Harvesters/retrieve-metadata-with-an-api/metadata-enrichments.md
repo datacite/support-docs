@@ -139,12 +139,11 @@ curl https://api.datacite.org/enrichments
 
 #### Parameters
 
-The enrichments endpoint supports filter parameters that refine the list of results. These include the following filters:
+The enrichments endpoint supports filter parameters that refine the list of results. This includes the following filter:
 
 | Filter      | Example values            | Description                                                            |
 | :---------- | :------------------------ | :--------------------------------------------------------------------- |
 | `doi`       | 10.48550/arxiv.2408.15127 | Retrieve enrichments for a specific DOI                                |
-| `client-id` | arxiv.content             | Retrieve enrichments for a specific repository’s DOIs by Repository ID |
 
 #### What's in the API response?
 
