@@ -14,7 +14,7 @@ _a computer program other than a computational notebook, in either source code (
 <resourceType resourceTypeGeneral="Software">Simulation tool</resourceType>
 ```
 
-### <br />Metadata for Software DOIs
+### Metadata for Software DOIs
 
 To support discovery, reuse, and accurate attribution, software DOIs should be registered with rich, structured metadata according to the [DataCite Metadata Schema](https://schema.datacite.org/). This metadata is made openly available and can be retrieved in downstream services and search engines.<br /><br />Connection metadata establishes links between software and other entities across the research ecosystem. Include persistent identifiers (PIDs) like [ORCID iDs](https://orcid.org/) and[ ROR IDs](https://ror.org/) in the relevant DataCite metadata properties to connect software to researchers, research organizations, and funders.
 
