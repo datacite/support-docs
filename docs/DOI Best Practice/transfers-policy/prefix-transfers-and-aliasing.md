@@ -77,11 +77,11 @@ the transfer:
 
 ## DOI distributed administration
 
-When only a subset of DOIs within a prefix need to be migrated from one Registration Agency (RA) to another RA, DataCite and Crossref members can request DOI distributed administration. Unlike a prefix transfer, this option allows a subset of the DOIs within a prefix assigned to one RA to be managed by the other RA. Unlike aliasing, the DOI names remain the same and can be cited with the same identifier. Members will still need to coordinate the registration of migrated DOI metadata with the new RA.
+When only a subset of DOIs within a prefix need to be migrated from one Registration Agency (RA) to another RA, DataCite and Crossref members can request DOI distributed administration. Unlike a prefix transfer, this option allows a subset of the DOIs within a prefix assigned to one RA to be managed by the other RA as opposed to all DOIs within a prefix. Unlike aliasing (see [below](doc:prefix-transfers-distributed admin-aliasing#aliasing-dois-between-registration-agencies), the DOI names remain the same and can be cited with the same identifier. Members will still need to coordinate the registration of migrated DOI metadata with the new RA.
 
 > 👍 
 >
->  DOI distributed administration is coordinated by the Registration Agency that will hold the new DOIs, and is set up by [CNRI](https://www.cnri.reston.va.us/). This is only available between DataCite and Crossref DOIs.
+>  DOI distributed administration is coordinated and set up by the Registration Agency that will hold the new DOIs and is set up by [CNRI](https://www.cnri.reston.va.us/). This is currently only available between DataCite and Crossref DOIs.
 
 These are the steps to set up DOI distributed administration from DataCite to Crossref:
 
@@ -101,20 +101,20 @@ These are the steps to set up DOI distributed administration from Crossref to Da
 
 ## Aliasing DOIs between Registration Agencies
 
-Aliasing is a redirect from one DOI to another - so when you click on DOI A (held by RA 1) it resolves to DOI B (held by RA 2). It is set up by [CNRI](https://www.cnri.reston.va.us/). Aliasing is normally the last option because it can create problems for citation. However, aliasing is an option if an organization wants to manage their DOIs and metadata with a different RA but the prefix cannot be transferred (for example, because it was shared with another organization).
+Aliasing is a redirect from one DOI to another - so when you click on DOI A (held by RA 1) it resolves to DOI B (held by RA 2). Aliasing is an additional option when only a subset of DOIs within a prefix need to be migrated from one Registration Agency (RA) to another RA; for example, when an organization wants to manage DOIs with a new RA and their prefix is shared with another organization. Aliasing is normally the last option because it creates more than one DOI name for a given resource, creating problems for citation.
 
 > 👍 
 > 
-> Aliasing is coordinated and set up by the Registration Agency that will hold the new DOIs.
+> Aliasing is coordinated and set up by the Registration Agency that will hold the new DOIs and is set up by [CNRI](https://www.cnri.reston.va.us/).
 
 These are the steps to set up aliasing from DataCite to Crossref:
 
 1. Crossref contacts DataCite to request the aliasing.
-2. DataCite contact the Member/Consortium Lead that the existing DOIs belong to request approval.
+2. DataCite contacts the Member/Consortium Lead that the existing DOIs belong to request approval.
 3. The DataCite Member/Consortium Lead will be sent an official form to sign to confirm they approve the aliasing.
-4. DataCite contact Crossref to confirm that the aliasing can be set up.
+4. DataCite contacts Crossref to confirm that aliasing can be set up.
 5. A new set of DOIs are registered in Crossref.
-6. Crossref contact CNRI to request the aliasing.
+6. Crossref contacts CNRI to request the aliasing.
 
 > ❗️ 
 > 
@@ -123,8 +123,8 @@ These are the steps to set up aliasing from DataCite to Crossref:
 These are the steps to set up aliasing from Crossref to DataCite:
 
 1. The DataCite Member/Consortium Lead contacts DataCite to request the aliasing.
-2. DataCite contact Crossref to request approval.
+2. DataCite contacts Crossref to request approval.
 3. Once approved, the DataCite Member/Consortium Lead coordinates the registration of the new set DOIs in DataCite.
 4. The Member/Consortium Lead provides a spreadsheet with a list of the old Crossref DOIs in the left column and the new DataCite DOIs in the right column (the number of DOIs must match exactly).
-5. DataCite contact CNRI to request the aliasing.
+5. DataCite contacts CNRI to request the aliasing.
 6. Once CNRI confirms this is set up there, Crossref DOIs will redirect to the DataCite DOIs.
