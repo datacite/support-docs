@@ -14,7 +14,7 @@ DataCite provides different types of transfer services. Any organization wishing
 
 There are 3 main types of transfers requiring an intervention by DataCite:
 
-- [Prefixes DOI Distributed Administration and Aliasing (between RAs)](doc:prefix-transfers-and-aliasing)
+- [Prefix transfers, DOI Distributed Administration and Aliasing (between RAs)](doc:prefix-transfers-and-aliasing)
 
 - [Repository Transfers between DataCite Members](doc:repository-transfers)
 
