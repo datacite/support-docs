@@ -1,5 +1,5 @@
 ---
-title: Prefix Transfers and Aliasing
+title: Prefix Transfers, DOI Distributed Administation and Aliasing
 excerpt: ''
 deprecated: false
 hidden: false
@@ -10,12 +10,11 @@ metadata:
 next:
   description: ''
 ---
-## DataCite's prefix transfers and aliasing policy:
+## DataCite's prefix transfers, DOI distributed administration and aliasing policy:
 
-- A prefix can only be assigned to one RA at any one time.
-- Prefix transfers and aliasing must be approved by the Member and by DataCite and the other RA.
-- Once the prefix is transferred, all of the existing DOIs and metadata must be re-registered with the new RA.
-- Prefixes belonging to generalist repositories (e.g. Dryad, Figshare, Zenodo) cannot be transferred or aliased to a different Registration Agency. 
+- All transfers must be approved by the Member, by DataCite and the other Registration Agency.
+- All DOI metadata must be re-registered with the new RA.
+- Prefixes and DOIs belonging to generalist repositories (e.g. Dryad, Figshare, Zenodo) cannot be transferred to a different Registration Agency. 
 
 ## DOI Registration Agency (RA) Transfers
 
@@ -69,13 +68,36 @@ the transfer:
 2. DataCite confirm the transfer request to CNRI.
 3. CNRI change admin and home the prefix to DataCite (only changing the the admin at this stage).
 4. DataCite import the prefix into Fabrica and assign it to a DataCite Repository.
-5. The Repository or DataCite Member (re-)register all DOIs in DataCite, including  
-   metadata. They Member must let DataCite know once this has been completed.
+5. The Repository or DataCite Member (re-)register all DOIs and metadata. The Member must let DataCite know once this has been completed.
 6. Previous RA performs system updates and cleanup (optional).
 
 > 🚧 
 > 
 > All existing metadata needs to be re-registered with DataCite. If the number of DOIs to re-register is large, we recommend using the DataCite [REST API](doc:api). There is no charge for re-registering the existing DOIs in DataCite.
+
+## DOI distributed administration
+
+When only a subset of DOIs within a prefix need to be migrated from one Registration Agency (RA) to another RA, DataCite and Crossref members can request DOI distributed administration. Unlike a prefix transfer, this option allows a subset of the DOIs within a prefix assigned to one RA to be managed by the other RA. Unlike aliasing, the DOI names remain the same and can be cited with the same identifier. Members will still need to coordinate the registration of migrated DOI metadata with the new RA.
+
+> 👍 
+>
+>  DOI distributed administration is coordinated and set up by the Registration Agency that will hold the new DOIs, and is set up by [CNRI](https://www.cnri.reston.va.us/). This is only available between DataCite and Crossref DOIs.
+
+These are the steps to set up DOI distributed administration from DataCite to Crossref:
+
+1. Crossref contacts DataCite to request the migration, including the list of DOIs they wish to migrate.
+2. DataCite contacts the Member/Consortium Lead that manages the existing DOIs to request approval.
+3. The DataCite Member/Consortium Lead will be sent an official form to sign to confirm they approve the distributed administration request.
+4. DataCite contacts Crossref to confirm that the migration is approved.
+5. Crossref coordinates the next steps with the member on their side.
+
+These are the steps to set up DOI distributed administration from Crossref to DataCite:
+
+1. The DataCite Member/Consortium Lead contacts DataCite to request the migration, including the list of DOIs they wish to migrate.
+2. DataCite contacts Crossref to request approval.
+3. Once approved, DataCite contacts CNRI to request the migration.
+4. DataCite will create draft records for the migrated DOIs for the member to populate with metadata.
+5. The member will add the metadata and transition the DOIs to findable state.
 
 ## Aliasing DOIs between Registration Agencies
 
