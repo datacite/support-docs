@@ -81,7 +81,7 @@ When only a subset of DOIs within a prefix need to be migrated from one Registra
 
 > 👍 
 >
->  DOI distributed administration is coordinated and set up by the Registration Agency that will hold the new DOIs, and is set up by [CNRI](https://www.cnri.reston.va.us/). This is only available between DataCite and Crossref DOIs.
+>  DOI distributed administration is coordinated by the Registration Agency that will hold the new DOIs, and is set up by [CNRI](https://www.cnri.reston.va.us/). This is only available between DataCite and Crossref DOIs.
 
 These are the steps to set up DOI distributed administration from DataCite to Crossref:
 
