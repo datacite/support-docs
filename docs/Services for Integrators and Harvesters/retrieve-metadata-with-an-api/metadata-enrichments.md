@@ -71,6 +71,11 @@ curl “https://api.datacite.org/dois?affiliation-id=https://ror.org/05dhe8b71&e
 
 The response includes a list of enriched DOI metadata records in JSON format. The fields returned in [a list response](https://support.datacite.org/docs/api-get-lists#whats-in-the-api-response) by default are also included.
 
+<Callout icon="📘" theme="info">
+
+  When using the `detail=true` parameter with `enriched=true` list requests, responses will contain original DOI XML metadata in the `xml` attribute rather than enriched DOI metadata. 
+</Callout>
+
 ### Retrieve a single enriched DOI record
 
 When [retrieving a single DOI](https://support.datacite.org/docs/api-get-doi) with the REST API, set the parameter `enriched=true` to retrieve an enriched DOI record. For example:
