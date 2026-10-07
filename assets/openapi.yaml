@@ -662,6 +662,11 @@ paths:
           explode: false
           style: form
         - in: query
+          name: enriched
+          description: Retrieve, query, and filter [enriched DOI metadata](https://support.datacite.org/docs/metadata-enrichments) if available.
+          schema:
+            type: boolean
+        - in: query
           name: affiliation-id
           description: Search creators.affiliation.affiliationIdentifier and contributors.affiliation.affiliationIdentifier for a ROR ID.
           schema:
@@ -1115,6 +1120,11 @@ paths:
         $ref: '#/components/parameters/affiliationParam'
       - in: query
         $ref: '#/components/parameters/publisherParam'
+      - in: query
+        name: enriched
+        description: Retrieve [enriched DOI metadata](https://support.datacite.org/docs/metadata-enrichments) if available.
+        schema:
+          type: boolean
       tags:
         - dois
       summary: Return a DOI.
