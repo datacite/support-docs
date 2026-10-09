@@ -6,7 +6,9 @@ hidden: true
 metadata:
   robots: index
 ---
-About this page<br /><br />This page forms part of the DataCite Membership Agreement and is incorporated into it by reference. A Consortium Member is bound by it in the same way as by the DataCite Membership and Services Terms and Conditions, and terms defined in Appendix A of those Terms have the same meaning here.
+### About this page
+
+This page forms part of the DataCite Membership Agreement and is incorporated into it by reference. A Consortium Member is bound by it in the same way as by the DataCite Membership and Services Terms and Conditions, and terms defined in Appendix A of those Terms have the same meaning here.
 
 DataCite updates this page from time to time as the consortium model develops. Where an update materially changes a Consortium Member's responsibilities, DataCite will publish the updated page and notify each Consortium Member no fewer than sixty (60) days before the change takes effect, in accordance with §17 of the Terms and Conditions. Earlier versions are available on request from [support@datacite.org](mailto:support@datacite.org).
 
@@ -18,7 +20,7 @@ The relationship is a partnership. The Consortium Member is closest to its commu
 
 Support is organised in two tiers:&#x20;
 
-**Tier 1&#x20;**— the Consortium Member. First line of contact for Consortium Organizations on administrative and technical matters.<br />**Tier 2** — DataCite. Technical escalation, troubleshooting and infrastructure.
+**Tier 1&#x20;**— **the Consortium Member.** First line of contact for Consortium Organizations on administrative and technical matters.<br />**Tier 2** — **DataCite.** Technical escalation, troubleshooting and infrastructure.
 
 ### 2. Tier 1 support and community engagement
 
@@ -30,7 +32,7 @@ The Consortium Member is responsible for Tier 1 support: the initial support lev
 - Providing relevant resources to assist new and existing Consortium Organizations, in the local language where appropriate.
 - Escalating to DataCite any issue that cannot be resolved at Tier 1.
 
-### 3. DataCite account Fabrica administration
+### 3. DataCite account administration
 
 The Consortium Member administers its Consortium in DataCite Fabrica. This includes:
 
