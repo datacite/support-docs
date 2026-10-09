@@ -10,17 +10,15 @@ About this page<br /><br />This page forms part of the DataCite Membership Agree
 
 DataCite updates this page from time to time as the consortium model develops. Where an update materially changes a Consortium Member's responsibilities, DataCite will publish the updated page and notify each Consortium Member no fewer than sixty (60) days before the change takes effect, in accordance with §17 of the Terms and Conditions. Earlier versions are available on request from [support@datacite.org](mailto:support@datacite.org).
 
-1. Overview of the consortium model
-   A DataCite Consortium is a group of organizations that participate in DataCite through a single Member. The Consortium Member is the Member of the association; the Consortium Organizations are not individual members and are represented by the Consortium Member in the General Assembly and in all dealings with DataCite.
+1. ### Overview of the consortium model
+
+A DataCite Consortium is a group of organizations that participate in DataCite through a single Member. The Consortium Member is the Member of the association; the Consortium Organizations are not individual members and are represented by the Consortium Member in the General Assembly and in all dealings with DataCite.
 
 The relationship is a partnership. The Consortium Member is closest to its community and provides local, first-line support and administration. DataCite provides the shared open infrastructure, second-line technical support, and the resources the Consortium Member needs to do its part.
 
 Support is organised in two tiers:
 
-Tier 1 — the Consortium Member. First line of contact for Consortium Organizations on administrative and technical matters.
-Tier 2 — DataCite. Technical escalation, troubleshooting and infrastructure.
-2\. Tier 1 support and community engagement
-The Consortium Member is responsible for Tier 1 support: the initial support level covering basic issues including login, DOI registration, metadata requirements and best practice. The Consortium Member catalyses adoption of DOIs among its Consortium Organizations, making sure that they understand why and how to make use of DataCite open infrastructure. This includes:
+### Tier 1 — the Consortium Member. First line of contact for Consortium Organizations on administrative and technical matters.<br /><br />Tier 2 — DataCite. Technical escalation, troubleshooting and infrastructure.<br /><br />     2. Tier 1 support and community engagement<br /><br />The Consortium Member is responsible for Tier 1 support: the initial support level covering basic issues including login, DOI registration, metadata requirements and best practice. The Consortium Member catalyses adoption of DOIs among its Consortium Organizations, making sure that they understand why and how to make use of DataCite open infrastructure. This includes:
 
 Acting as the first line of contact for the Consortium, for both DataCite and the Consortium Organizations, on administrative and technical issues.
 Facilitating the initial onboarding of the Consortium with DataCite.
