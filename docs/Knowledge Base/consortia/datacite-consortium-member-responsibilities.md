@@ -2,7 +2,7 @@
 title: DataCite Consortium Member Responsibilities
 excerpt: This page sets out the responsibilities of a DataCite Consortium Member.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
