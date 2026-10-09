@@ -79,7 +79,7 @@ When an organization leaves the Consortium, or discontinues its registration of 
 DataCite is responsible for Tier 2 support of the Consortium. Tier 2 support involves technical knowledge and troubleshooting capabilities, and includes:
 
 - Providing administrative support to the Consortium Member.
-- Providing training to the Consortium Member, including technical troubleshooting and escalation, bugs and fixes, and advanced technical workflows not documented in DataCite Support.
+- Providing training to the Consortium Member, including technical troubleshooting and escalation, bugs and fixes, and advanced technical workflows not documented in [DataCite Support](https://support.datacite.org/).
 - Providing and maintaining resources for technical implementation, communication and engagement.
 
 Operating and maintaining the shared open infrastructure to which the Membership Fee and other Fees contribute.
