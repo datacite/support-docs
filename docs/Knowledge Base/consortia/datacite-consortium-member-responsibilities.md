@@ -40,7 +40,8 @@ The Consortium Member administers its Consortium in DataCite Fabrica. This inclu
 - Working with DataCite to establish accounts for organizations in both the test and production systems.
 - Maintaining the Consortium Organization List in DataCite Fabrica so that it accurately reflects the organizations the Consortium Member represents.
 - Monitoring the Consortium and keeping track of new Repositories being added.<br />Ensuring each Consortium Organization designates a repository contact, and advising
-- DataCite of any changes to that information.<br />Taking responsibility for the transfer of DOIs when an organization leaves the Consortium.
+- DataCite of any changes to that information.
+- Taking responsibility for the transfer of DOIs when an organization leaves the Consortium.
 
 ### 4. Consortium governance
 
@@ -65,7 +66,7 @@ The Consortium Member acts as the primary billing and administrative liaison bet
 
 - Provides DataCite with evidence of its status as a legal business entity, and appropriate certification where it is exempt from VAT.
 
-Fees are set out in the Fee Structures published at datacite.org/fees. The Membership Fee is approved by the General Assembly; all other Fee Structures are approved by the Executive Board in consultation with the General Assembly.
+Fees are set out in the Fee Structures published at [datacite.org/fees](https://datacite.org/fees). The Membership Fee is approved by the General Assembly; all other Fee Structures are approved by the Executive Board in consultation with the General Assembly.
 
 ### 6. Organizations joining or leaving the Consortium
 
