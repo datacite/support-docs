@@ -8,7 +8,7 @@ metadata:
 ---
 ### About this page
 
-This page forms part of the DataCite Membership Agreement and is incorporated into it by reference. A Consortium Member is bound by it in the same way as by the DataCite Membership and Services Terms and Conditions, and terms defined in Appendix A of those Terms have the same meaning here.
+This page forms part of the DataCite Membership Agreement and is incorporated into it by reference. A Consortium Member is bound by it in the same way as by the DataCite [Membership and Services Terms and Conditions](https://doi.org/10.14454/y8g7-sr11), and terms defined in Appendix A of those Terms have the same meaning here.
 
 DataCite updates this page from time to time as the consortium model develops. Where an update materially changes a Consortium Member's responsibilities, DataCite will publish the updated page and notify each Consortium Member no fewer than sixty (60) days before the change takes effect, in accordance with §17 of the Terms and Conditions. Earlier versions are available on request from [support@datacite.org](mailto:support@datacite.org).
 
