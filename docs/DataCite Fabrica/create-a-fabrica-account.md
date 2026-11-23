@@ -1,8 +1,12 @@
 ---
-title: Access DataCite Fabrica
+title: Create an Account
 excerpt: ''
 deprecated: false
-hidden: false
+hidden: true
+link:
+  new_tab: false
+  url: >-
+  https://support.datacite.org/docs/getting-started 
 metadata:
   title: ''
   description: ''
