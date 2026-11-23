@@ -2,7 +2,7 @@
 title: Create an Account
 excerpt: ''
 deprecated: false
-hidden: true
+hidden: false
 link:
   new_tab: false
   url: https://support.datacite.org/docs/getting-started
@@ -10,8 +10,6 @@ metadata:
   title: ''
   description: ''
   robots: index
-next:
-  description: ''
 ---
 Your DataCite [account credentials](doc:datacite-account-types) are used to access Fabrica and consist of an Account ID and password.
 
