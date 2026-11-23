@@ -5,8 +5,7 @@ deprecated: false
 hidden: true
 link:
   new_tab: false
-  url: >-
-  https://support.datacite.org/docs/getting-started 
+  url: https://support.datacite.org/docs/getting-started
 metadata:
   title: ''
   description: ''
