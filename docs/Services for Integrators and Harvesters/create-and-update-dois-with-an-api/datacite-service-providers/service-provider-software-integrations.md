@@ -142,7 +142,7 @@ InvenioRDM is a turn-key research data management platform with an intuitive use
 **Registered service provider:** [InvenioRDM](https://inveniordm.docs.cern.ch/); [Cottage Labs](https://cottagelabs.com/)
 
 
-### Janeway DataCite plugin
+### Janeway
 
 [https://janeway.systems/](https://janeway.systems/)
 
@@ -154,7 +154,7 @@ Metadata is sent using DataCite Metadata Schema 4.7, including authors, title, a
 
 **Documentation:** DataCite integration configuration: https://janeway.systems/pages/support/plugins/datacite 
 
-**Registered service provider:**[Janeway](https://janeway.systems/)
+**Registered service provider:**[Janeway DataCite Plugin](https://janeway.systems/)
 
 ### Medad
 
