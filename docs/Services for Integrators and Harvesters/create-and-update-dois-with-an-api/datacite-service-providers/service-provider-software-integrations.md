@@ -141,6 +141,21 @@ InvenioRDM is a turn-key research data management platform with an intuitive use
 
 **Registered service provider:** [InvenioRDM](https://inveniordm.docs.cern.ch/); [Cottage Labs](https://cottagelabs.com/)
 
+
+### Janeway DataCite plugin
+
+[https://janeway.systems/](https://janeway.systems/)
+
+Janeway is an open-source publishing platform for journals, preprints and repositories, developed by the Open Library of Humanities at Birkbeck, University of London. The Janeway DataCite plugin lets journals register and manage DOIs directly through the DataCite REST API.
+
+Editors can mint DOIs by hand from the journal’s management area, or turn on automatic deposit. With automatic deposit, a draft DOI is registered when an article is accepted and made findable when it is published.
+
+Metadata is sent using DataCite Metadata Schema 4.7, including authors, title, abstract, keywords, licence, issue details and related items. The plugin is open source and available at https://github.com/openlibhums/datacite.
+
+**Documentation:** DataCite integration configuration: https://janeway.systems/pages/support/plugins/datacite 
+
+**Registered service provider:**[Janeway](https://janeway.systems/)
+
 ### Medad
 
 [https://medad.com](https://medad.com)
