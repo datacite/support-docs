@@ -16,7 +16,7 @@ If everything is set up correctly but auto-update is not working as expected, th
 
 ## The date auto-update was enabled
 
-Auto-update will only trigger for [findable](doc:doi-states#findable-dois) DOIs registered or updated **after** the user enables the auto-update token. To trigger ORCID auto-update for existing DOIs (registered before the token was enabled), you will need to make an update to one of the following metadata fields:
+Auto-update will only trigger for [findable](doc:doi-states#findable-dois) DOIs registered or updated **after** the user enables the auto-update token. To trigger ORCID auto-update for existing DOIs (registered before the token was enabled), you can add the DOIs [using DataCite Commons](doc:orcid-claiming). You can also make an update to one of the following metadata fields:
 
 - Creator
 - RelatedIdentifier
